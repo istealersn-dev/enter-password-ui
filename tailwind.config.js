@@ -25,13 +25,13 @@ module.exports = {
     },
     extend: {
       colors: {
-        pmblue: 'hsla(216, 62%, 19%, 1)',
+        pmblue: 'hsla(216, 62%, 19%, 1)', // => Setting primary color
       },
       fontFamily: {
-        sans: [ 'Noto Sans', 'sans-serif'],
+        sans: [ 'Noto Sans', 'sans-serif'], // => Setting primary fontFace
       },
       fontSize: {
-        'xxs' : '0.625rem',
+        'xxs' : '0.625rem', // => Setting lowest fontSize
       },
       container: {
         center: true,
