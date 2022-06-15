@@ -1,0 +1,26 @@
+/*  --------------- Google Fonts -------------------------------------
+
+URL: https://fonts.google.com/noto/specimen/Noto+Sans
+
+About Noto Sans
+Noto Sans is an unmodulated (“sans serif”) design for texts in the Latin, Cyrillic and Greek scripts, which is also suitable as the complementary choice for other script-specific Noto Sans fonts.
+
+Licensed under Open Font License 
+https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL
+
+*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap');
+
+/* Tailwind CSS setup --------------------------------*/
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*  Setting up the default font styles --------------------------------*/
+@layer base {
+  html {
+    font-family: 'Noto Sans', sans-serif;
+  }
+}
+
